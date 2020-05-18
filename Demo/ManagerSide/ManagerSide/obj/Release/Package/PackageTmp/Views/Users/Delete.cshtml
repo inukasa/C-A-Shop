@@ -1,0 +1,91 @@
+﻿@model ManagerSide.Models.User
+
+@{
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/Management_Delete_PageUser.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+    <div class="Main-Content">
+        <h3>Bạn có thực sự muốn xoá tài khoản này?</h3>
+            <hr />
+            <div class="table_position">
+                <table class="Table">
+                    <tr>
+                        <th>Tên tài khoản</th>
+                        <td>@Html.DisplayFor(model => model.username)</td>
+                    </tr>
+                    <tr>
+                        <th>Tên người dùng</th>
+                        <td>@Html.DisplayFor(model => model.fullname)</td>
+                    </tr>
+                    <tr>
+                        <th>Địa chỉ</th>
+                        <td>@Html.DisplayFor(model => model.address)</td>
+                    </tr>
+                    <tr>
+                        <th>Số điện thoại</th>
+                        <td>@Html.DisplayFor(model => model.phone)</td>
+                    </tr>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.email)</th>
+                        <td>@Html.DisplayFor(model => model.email)</td>
+                    </tr>
+                    <tr>
+                        <th>Giới tính</th>
+                        <td>@Html.DisplayFor(model => model.gender)</td>
+                    </tr>
+                    <tr>
+                        <th>Ngày sinh</th>
+                        <td>@Html.DisplayFor(model => model.birthday)</td>
+                    </tr>
+                    @*<tr>
+                        <th>Trạng thái</th>
+                        <td>@Html.DisplayFor(model => model.status)</td>
+                    </tr>*@
+                    <tr>
+                        <th>Phân loại người dùng</th>
+                        <td>@Html.DisplayFor(model => model.UserType.typeName)</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Delete_btn">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-actions no-color">
+                        <input type="submit" value="Xoá" class="btn btn-default" /> |
+                        @Html.ActionLink("Trở lại danh sách", "Index")
+                    </div>
+                }
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿@model ManagerSide.Models.UserLogin
+
+    @{
+        Layout = null;
+    }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file of w3school -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/LoginPage.css">
+</head>
+<body>
+    @Scripts.Render("~/bundles/jqueryval")
+    @Html.Raw(ViewBag.ErrorMessege)
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="sign-up">
+            <div class="sign-up__form">
+                <div class="sign-up__content">
+                    <h2 class="sign-up__title">Đăng nhập</h2>
+                    <a>Tên đăng nhập</a>
+                    @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "sign-up__inp" } })
+                    @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+                    <a>Mật khẩu</a>
+                    @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "sign-up__inp" }, type = "password" })
+                    @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                </div>
+                <div class="sign-up__buttons">
+                    <button class="btn--signin" type="submit" style="width: 100%;">Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+    }
+    </body>
+</html>

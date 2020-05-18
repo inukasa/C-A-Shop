@@ -1,0 +1,42 @@
+﻿@model ManagerSide.Models.SubCategory
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Danh mục con</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.subcategoryName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.subcategoryName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Category.categoryName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Category.categoryName)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Sửa", "Edit", new { id = Model.subcategoryID }) |
+        @Html.ActionLink("Trở lại danh sách", "Index")
+    </p>
+</body>
+</html>

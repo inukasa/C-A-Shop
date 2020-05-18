@@ -1,0 +1,229 @@
+﻿@model ManagerSide.Models.CommonModel
+
+@{
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/ManagementUsers.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+    <div class="Main-Content">
+        <div class="AddButton">
+            @Html.ActionLink("Tạo mới", "Create")
+        </div>
+        <div class="Device_Table_Position">
+            <h3>Bảng tài khoản khách hàng</h3>
+            <table class="Table">
+                <caption>Tài khoản hoạt động</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Tên tài khoản
+                        </th>
+                        <th>
+                            Số điện thoại
+                        </th>
+                        <th>
+                            Giới tính
+                        </th>
+                        <th>
+                            Trạng thái
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.notBanUserCustomer)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.username)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.phone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.status)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Ngưng hoạt động", "Ban", new { id = item.userID, status = "Inactive" }) 
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+            <!---------->
+            <table class="Table">
+                <caption>Tài khoản ngưng hoạt động</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Tên tài khoản
+                        </th>
+                        <th>
+                            Số điện thoại
+                        </th>
+                        <th>
+                            Giới tính
+                        </th>
+
+                        
+                        <th>
+                            Trạng thái
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.banUserCustomer)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.username)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.phone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.status)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Hoạt động", "Ban", new { id = item.userID, status = "Active" }) 
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+            <!---------->
+
+
+        </div>
+        <div class="Device_Table_Position">
+            <h3>Bảng nhân viên</h3>
+            <table class="Table">
+                <caption>Tài khoản hoạt động</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Tên tài khoản
+                        </th>
+                        <th>
+                            Số điện thoại
+                        </th>
+                        <th>
+                            Giới tính
+                        </th>
+
+                        <th>
+                            Trạng thái
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.notBanUserStaff)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.username)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.phone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.gender)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.status)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Ngưng hoạt động", "Ban", new { id = item.userID, status = "Inactive" }) 
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <!---------->
+            <table class="Table">
+                <caption>Tài khoản ngưng hoạt động</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            Tên tài khoản
+                        </th>
+                        <th>
+                            Số điện thoại
+                        </th>
+                        <th>
+                            Giới tính
+                        </th>
+                        <th>
+                            Trạng thái
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.banUserStaff)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.username)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.phone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.gender)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.status)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Hoạt động", "Ban", new { id = item.userID, status = "Active" }) 
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <div class="footer"></div>
+</body>
+</html>

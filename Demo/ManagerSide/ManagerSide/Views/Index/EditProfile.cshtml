@@ -1,0 +1,113 @@
+﻿@model ManagerSide.Models.User
+
+@{
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/ManagementOrder.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/inputFormProduct.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+
+    @using (Html.BeginForm("EditProfile", "Index", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="Main-Content">
+            <div class="CreateProduct">
+                <div class="CreateProduct__form">
+                    <div class="CreateProduct__content">
+                        <h2 class="CreateProduct__title">Tạo mới tài khoản</h2>
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.userID)
+                        @Html.HiddenFor(model => model.typeID)
+                        @*@Html.HiddenFor(model => model.avatar)*@
+
+                        <label>Tên đăng nhập</label>
+                        @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "CreateProduct__inp", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+
+                        <label>Mật khẩu</label>
+                        @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "CreateProduct__inp", @required = "required", @type = "password", minlength = "6", maxlength = "15" } })
+                        @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+
+                        <label>Tên đầy đủ</label>
+                        @Html.EditorFor(model => model.fullname, new { htmlAttributes = new { @class = "CreateProduct__inp" } })
+                        @Html.ValidationMessageFor(model => model.fullname, "", new { @class = "text-danger", minlength = "6", maxlength = "49" })
+
+                        
+
+                        <label>Địa chỉ</label>
+                        @Html.EditorFor(model => model.address, new { htmlAttributes = new { @class = "CreateProduct__inp" } })
+                        @Html.ValidationMessageFor(model => model.address, "", new { @class = "text-danger" })
+
+                        <label>Số điện thoại</label>
+                        @Html.EditorFor(model => model.phone, new { htmlAttributes = new { @class = "CreateProduct__inp" } })
+                        @Html.ValidationMessageFor(model => model.phone, "", new { @class = "text-danger" })
+
+
+                        <label>Email</label>
+                        @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "CreateProduct__inp" } })
+                        @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+
+                        <div class="boxSupplier">
+                            <label>Giới tính</label>
+                            @Html.DropDownList("gender",
+                               new List<SelectListItem>
+                               {
+                               new SelectListItem{ Text="Nam", Value = "Nam" },
+                               new SelectListItem{ Text="Nữ", Value = "Nữ" },
+                               new SelectListItem{ Text="Khác", Value = "Khác" },
+                               }, htmlAttributes: new { @class = "form-control" })
+                        </div>
+
+                        <label>Ngày sinh</label>
+                        @Html.EditorFor(model => model.birthday, new { htmlAttributes = new { @class = "CreateProduct__inp", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.birthday, "", new { @class = "text-danger" })
+
+                        <div class="CreateProduct__buttons">
+                            <input class="btn--cancel" type="submit" value="Hủy" name="action:Back" />
+                            <input class="btn--create" type="submit" value="Lưu" name="action:EditProfile" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <script>
+
+        $(document).ready(function () {
+            $("#birthday").datepicker({
+                dateFormat: "dd/mm/yy",
+                //minDate: -0,
+                maxDate: 0
+
+            });
+        });
+    </script>
+</body>
+</html>

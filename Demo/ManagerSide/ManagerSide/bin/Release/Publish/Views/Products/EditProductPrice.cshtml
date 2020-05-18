@@ -1,0 +1,132 @@
+﻿@model IEnumerable<ManagerSide.Models.Product>
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/Inventories_editCategory.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/inputFormProduct.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="Main-Content" id="mainmdl">
+        <div class="CreateProduct">
+            <div class="CreateProduct__form">
+                <div class="CreateProduct__content">
+                    <h2 class="CreateProduct__title">Thêm loại sản phẩm</h2>
+                    @*@Html.TextBox("importPrice", "importPrice", htmlAttributes: new { @type = "number", @min = "0", @value = "0", id = "import", required = "required" })*@
+                    <label>Giá bán</label>
+                    @*@Html.TextBox("exportPrice", "exportPrice", htmlAttributes: new { @type = "number", @min = "0", @value = "0", id = "export", required = "required" })*@
+                    <input type="text" class="CreateProduct__inp" id="exportPrice" onKeyPress="return isNumberKey(event)" required/>
+                    <table class="Table">
+                        <thead>
+                            <tr>
+                                <th>Mã sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Loại sản phẩm</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.productID)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.productName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SubCategory.subcategoryName)</td>
+                                    <td><input type="checkbox" value="@item.productID" /></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="CreateProduct__buttons">
+                    <input class="btn--cancel" type="submit" value="Hủy" onclick="redirect()" />
+                    <input class="btn--create" type="submit" value="Thêm" onclick="updatePrice()" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script>
+        var listCheckedBox = new Array();
+
+        var categoryId = 1;
+
+        var status = document.getElementById("status");
+
+        var exportPrice = document.getElementById("exportPrice");
+
+        function updatePrice() {
+            getValue();
+            update();
+        }
+
+        function redirect() {
+            window.location.href = "../Products/Index";
+        }
+        function update() {
+            $.ajax({
+                type: 'POST',
+                url: '/Products/EditProductPrice',
+                data: { products: listCheckedBox, exportPrice: exportPrice.value },
+                success: function (data) {
+                    alert("Cập nhật thành công");
+                    window.location.href = "../Products/Index";
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert("Cập nhật không thành công");
+                    window.location.href = "../Products/Index";
+                }
+            });
+        }
+
+
+        function getValue() {
+            listCheckedBox = new Array();
+            var row = $('#mainmdl table tr:has(td)');
+            $.each($(row).find('td'), function (i, item) {
+                if ($(this).find('input[type=checkbox]:checked').length > 0) {
+                    listCheckedBox.push($(this).find('input[type=checkbox]').val());
+                }
+            });
+        };
+
+         function isNumberKey(evt)
+         {
+             var charCode = (evt.which) ? evt.which : event.keyCode
+             if (charCode > 31 && (charCode < 48 || charCode > 57))
+             return false;
+             return true;
+         }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿@model ManagerSide.Models.Inventory
+
+@{
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/ManagementProduct.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/inputFormProduct.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+    <h2>Edit</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="Main-Content">
+            <div class="CreateProduct">
+                <div class="CreateProduct__form">
+                    <div class="CreateProduct__content">
+                        @Html.HiddenFor(model => model.productID)
+                        <h2 class="CreateProduct__title">Sửa thông tin kho hàng</h2>
+                        <label>Mã sản phẩm</label>
+                        @Html.EditorFor(model => model.productID, new { htmlAttributes = new { @class = "CreateProduct__inp" , @readonly = "readonly"} })
+                        <label>Số lượng</label>
+                        @Html.EditorFor(model => model.productQuantity, new { htmlAttributes = new { @class = "CreateProduct__inp" } })
+                        @Html.ValidationMessageFor(model => model.productQuantity, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="CreateProduct__buttons">
+                        <input class="btn--cancel" type="submit" name="action:Back" value="Hủy" />
+                        <input class="btn--create" type="submit" name="action:Edit" value="Lưu" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    }
+</body>
+</html>

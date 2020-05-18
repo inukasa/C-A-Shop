@@ -1,0 +1,76 @@
+﻿@model ManagerSide.Models.CommonModel
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>*@
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/ManagementInventory.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/BodyandFont.css">
+    <title>C&A</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    <div class="Main-Content">
+        <p>Sản phẩm</p>
+        <table class="table">
+            @foreach (var item in Model.allProducts)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.productName)
+                        
+                        @*@Html.ActionLink(item.productName, "Sửa", "Sản phẩm", new { id = item.productID }, null)*@
+                    </td>
+                </tr>
+            }
+        </table>
+        <p>Nhà cung cấp</p>
+        <table class="table">
+            @foreach (var item in Model.suppliers)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.supplierName)
+                        @*@Html.ActionLink(item.supplierName, "Sửa", "Nhà cung cấp", new { id = item.supplierID }, null)*@
+                    </td>
+                </tr>
+            }
+        </table>
+        <p>Người dùng</p>
+        <table class="table">
+            @foreach (var item in Model.users)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.username)
+                        @*@Html.ActionLink(item.username, "Sửa", "Người dùng", new { id = item.userID }, null)*@
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

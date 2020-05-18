@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- CSS file from w3school -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>C&A</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../Css/TopBarandSideBar.css">
+<link rel="stylesheet" type="text/css" href="../Css/BodyandFont.css">
+<link rel="stylesheet" type="text/css" href="../Css/ManagementUsers.css">
+<style type="text/css">
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
+	:root {
+		--red: #ff5757;
+		--yellow: #feb800;
+		--green: #07a787;
+		--purple: #c765d0;
+		--gray: #787878;
+		--gray-light: #eee;
+		--gray-dark: #2e3c54;
+		--font: "Montserrat", sans-serif;
+	}
+
+	body
+	{
+		font-family: var(--font);
+		margin: 0px;
+	}
+
+
+	.wrap {
+		width: 1000px;
+		margin-top: 2%;
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+		padding: 5px;
+		background: white;
+		float: left;
+		table-layout: fixed;
+	}
+	.wrap table {
+		table-layout: fixed;
+		width: 100%;
+	}
+	.wrap table.head {
+		width: calc(100% - 15px);
+	}
+	.wrap table.head tr th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: center;
+		background-color: var(--red);
+		border: 1px solid #ddd;
+		color: white;
+	}
+
+
+	table tr td {
+		word-wrap: break-word;
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+
+	table tr:hover
+	{
+		background-color: #ddd;
+	}
+
+	table tr:nth-child(even)
+	{
+		background-color: #f2f2f2;
+	}
+
+	.scroll-table {
+		max-height: 250px;
+		overflow-y: auto;
+	}
+</style>
+<body>
+	<div class="SideBar">
+		<img src="../Img/Logo.png"/>
+		<a href="Index.html">Trang Chủ</a>
+		<a href="ManagementUsers.html">Quản lý người dùng</a>
+		<a href="ManagementProduct.html">Quản lý sản phẩm</a>
+		<a href="ManagementOrder.html">Quản lý yêu cầu</a>
+		<a href="ManagementSupplier.html">Quản lý nhà cung cấp</a>
+		<a href="ManagementInventory.html">Quản lý nhà kho</a>
+	</div>
+	<div class="TopBar">
+		<input type="text" placeholder="Tìm kiếm.." name="search">
+		<div class="AccountInfor">
+			<img src="../Img/p2.png">
+			<ul>
+				<li><a href="#">Manager01</a></li>
+				<li><a href="#">Đăng xuất</a></li>
+			</ul>	
+		</div>
+	</div>	
+	<div class="Main-Content">
+		<!-- Bảng điều khiển -->
+		<div class="AddButton">
+			<a href="ManagementUsers___Create.html">Tạo tài khoản</a>
+		</div>
+		<!-- Bảng tài khoản đang có -->
+		<!-- <div class="UsersContent"> -->
+			<div class="wrap">
+				<h3>Tài khoản của thành viên</h3>
+				<table class="head">
+					<tbody>
+						<tr>
+							<th>Tên tài khoản</th>
+							<th>Chủ tài khoản</th>
+							<th>Vị trí</th>
+							<th>Số điện thoại</th>
+							<th>Email</th>
+							<th>Trạng thái</th>
+							<th></th>
+						</tr>
+					</tbody>
+				</table>
+				<div class="scroll-table">
+					<table>
+						<tbody>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td>Manager01</td>
+								<td>Nguyen Van A</td>
+								<td>Quản lý</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+								<td>Hoạt động</td>
+								<td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+			<!-- Bảng tài khoản của khách hàng -->
+			<!-- <h3>Tài khoản của khách hàng</h3> -->
+			<div class="wrap">
+				<h3>Tài khoản của khách hàng</h3>
+				<table class="head">
+					<tbody>
+						<tr>
+							<th>Tên tài khoản</th>
+							<th>Chủ tài khoản</th>
+							<th>Số điện thoại</th>
+							<th>Email</th>
+						</tr>
+					</tbody>
+				</table>
+				<div class="scroll-table">
+					<table>
+						<tbody>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+							<tr>
+								<td>Cogaixinhdep</td>
+								<td>Nguyen Van A</td>
+								<td>0123456789</td>
+								<td>Abcxyz@gmail.com</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+			<!-- </div> -->
+		</div>
+		<div class="footer"></div>
+	</body>
+	</html>

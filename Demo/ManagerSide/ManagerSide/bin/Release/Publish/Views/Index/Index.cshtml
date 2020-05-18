@@ -1,0 +1,104 @@
+﻿@model ManagerSide.Models.CommonModel
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!--Google Chart API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Number of Account'],
+                ['Nam', @Model.maleUser],
+                ['Nữ', @Model.femaleUser],
+                ['Khác', @Model.otherUser],
+            ]);
+
+            var options = {
+                title: 'Thống kê tài khoản khách hàng'
+            };
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['bar'] });
+        google.charts.setOnLoadCallback(drawStuff);
+
+        function drawStuff() {
+            var data = new google.visualization.arrayToDataTable([
+                ['Tháng', 'Doanh Thu'],
+                ["@Model.revenue.ElementAt(0).month", @Model.revenue.ElementAt(0).revenue],
+                ["@Model.revenue.ElementAt(1).month", @Model.revenue.ElementAt(1).revenue],
+                ["@Model.revenue.ElementAt(2).month", @Model.revenue.ElementAt(2).revenue],
+                ["@Model.revenue.ElementAt(3).month", @Model.revenue.ElementAt(3).revenue],
+                ["@Model.revenue.ElementAt(4).month", @Model.revenue.ElementAt(4).revenue],
+                ["@Model.revenue.ElementAt(5).month", @Model.revenue.ElementAt(5).revenue],
+                ["@Model.revenue.ElementAt(6).month", @Model.revenue.ElementAt(6).revenue],
+                ["@Model.revenue.ElementAt(7).month", @Model.revenue.ElementAt(7).revenue],
+                ["@Model.revenue.ElementAt(8).month", @Model.revenue.ElementAt(8).revenue],
+                ["@Model.revenue.ElementAt(9).month", @Model.revenue.ElementAt(9).revenue],
+                ["@Model.revenue.ElementAt(10).month", @Model.revenue.ElementAt(10).revenue],
+                ["@Model.revenue.ElementAt(11).month", @Model.revenue.ElementAt(11).revenue],
+            ]);
+
+            var options = {
+                title: 'Thông kê doanh thu trong năm',
+                width: 900,
+                legend: { position: 'none' },
+                chart: {
+                    title: 'Thông kê doanh thu trong năm',
+                },
+                bars: 'horizontal', // Required for Material Bar Charts.
+                axes: {
+                    x: {
+                        0: { side: 'top', label: 'Đồng' } // Top x-axis.
+                    }
+                },
+                bar: { groupWidth: "90%" }
+            };
+
+            var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+            chart.draw(data, options);
+        };
+    </script>
+    <link rel="stylesheet" type="text/css" href="../Css_Management/AdminIndex.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/BodyandFont.css">
+</head>
+<body>
+    <!----->
+    <div class="Main-Content">
+        <div id="piechart" class="piechart"></div>
+        <div id="top_x_div" class="top_x_div"></div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>

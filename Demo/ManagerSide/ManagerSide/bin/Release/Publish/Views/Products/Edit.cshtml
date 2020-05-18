@@ -1,0 +1,99 @@
+﻿@model ManagerSide.Models.Product
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/ManagementProduct.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/inputFormProduct.css">
+</head>
+<body>
+    @Scripts.Render("~/bundles/jqueryval")
+    @Html.Raw(ViewBag.ErrorMessege)
+    @using (Html.BeginForm("Edit", "Products", FormMethod.Post, new { enctype = "multipart/form-data", name = "myForm", id = "myForm" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="Main-Content">
+            <div class="CreateProduct">
+                <div class="CreateProduct__form">
+                    <div class="CreateProduct__content">
+                        <h2 class="CreateProduct__title">Sửa thông tin sản phẩm</h2>
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.productID)
+                        @Html.HiddenFor(model => model.supplierID)
+                        @Html.HiddenFor(model => model.productIcon)
+                        @*@Html.HiddenFor(model => model.importPrice)
+        @Html.HiddenFor(model => model.exportPrice)*@
+                        <label>Tên sản phẩm</label>
+                        @Html.EditorFor(model => model.productName, new { htmlAttributes = new { @class = "CreateProduct__inp", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.productName, "", new { @class = "text-danger" })
+
+                        <label>Kích cỡ</label>
+                        @Html.EditorFor(model => model.productSize, new { htmlAttributes = new { @class = "CreateProduct__inp", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.productSize, "", new { @class = "text-danger" })
+
+                        <label>Giá bán</label>
+                        @Html.EditorFor(model => model.exportPrice, new { htmlAttributes = new { @class = "CreateProduct__inp", required = "required", title = "Cần nhập dữ liệu" } })
+                        @Html.ValidationMessageFor(model => model.exportPrice, "", new { @class = "text-danger" })
+
+                        <label>Ảnh</label>
+                        <img src="@Url.Content("~/Images/"+Model.productIcon)" style="width: 200px; height: 200px;" />
+                        <input type="file" name="ImageFile" id="ImageFile" />
+
+                        <label>Màu</label>
+                        @Html.EditorFor(model => model.productColor, new { htmlAttributes = new { @class = "CreateProduct__inp", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.productColor, "", new { @class = "text-danger" })
+
+                        <label>Số lượt đánh giá</label>
+                        @Html.EditorFor(model => model.productRate, new { htmlAttributes = new { @class = "CreateProduct__inp", @readonly = "readonly" } })
+                        
+                        <label>Nhà cung cấp</label>
+                        <input type="text" class="CreateProduct__inp" name="supName" value="@Model.Supplier.supplierName" readonly />
+
+                        <div class="boxProduct">
+                            <label>Loại sản phẩm</label>
+                            @Html.DropDownList("categoryID", null, htmlAttributes: new { @class = "form-control" })
+                        </div>
+
+                        <label>Mô tả sản phẩm</label>
+                        @Html.EditorFor(model => model.productDescription, new { htmlAttributes = new { @class = "CreateProduct__inp" } })
+                        @Html.ValidationMessageFor(model => model.productDescription, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="CreateProduct__buttons">
+                        <input class="btn--cancel" type="button" value="Hủy" onclick="back()" />
+                        <input class="btn--create" type="submit" name="action:Edit" value="Lưu" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="footer"></div>
+    <script>
+        function back() {
+            window.location.href = "../Index";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- CSS file from w3school -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>C&A</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../Css/TopBarandSideBar.css">
+<link rel="stylesheet" type="text/css" href="../Css/BodyandFont.css">
+<link rel="stylesheet" type="text/css" href="../Css/ManagementProduct.css">
+<link rel="stylesheet" type="text/css" href="../Css/inputFormProduct.css">
+<!-- <Style>		
+	.TableA 
+	{	
+		margin-top: 2%;
+		/*box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);*/
+		padding: 10px;
+		background: white;
+		float: left;
+	}
+
+	.TableA table{
+		width: 100%;
+	}
+
+
+
+	.TableA th
+	{
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: center;
+		background-color: var(--red);
+		color: white;
+	}
+	.TableA td
+	{
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+
+	.TableA tr:nth-child(even)
+	{
+		background-color: #f2f2f2;
+	}
+
+	.TableA tr:hover
+	{
+		background-color: #ddd;
+	}
+</Style -->>
+<script>
+	function myCreateFunction() {
+		var x = document.createElement("input");
+		x.setAttribute("type", "text");
+		// x.setAttribute("value","abc");
+
+		var y = document.createElement("input");
+		y.setAttribute("type","text");
+		// y.setAttribute("value","xyz");
+
+		var table = document.getElementById("myTable");
+		var row = table.insertRow(-1);
+		var cell1 = row.insertCell(0);
+		var cell2 = row.insertCell(1);
+		cell1.appendChild(x);
+		cell2.appendChild(y);
+	}
+
+	function myDeleteFunction() {
+		document.getElementById("myTable").deleteRow(1);
+	}
+</script>
+<body>
+	<div class="SideBar">
+		<img src="../Img/Logo.png"/>
+		<a href="Index.html">Trang chủ</a>
+		<a href="ManagementUsers.html">Quản lý người dùng</a>
+		<a href="ManagementProduct.html">Quản lý sản phẩm</a>
+		<a href="ManagementOrder.html">Quản lý yêu cầu</a>
+		<a href="ManagementSupplier.html">Quản lý nhà cung cấp</a>
+		<a href="ManagementInventory.html">Quản lý nhà kho</a>
+	</div>
+	<div class="TopBar">
+		<input type="text" placeholder="Tìm kiếm.." name="search">
+		<div class="AccountInfor">
+			<img src="../Img/p2.png">
+			<ul>
+				<li><a href="#">Manager01</a></li>
+				<li><a href="#">Đăng xuất</a></li>
+			</ul>	
+		</div>
+	</div>	
+	<div class="Main-Content">
+		<div class="CreateProduct">
+			<form class="CreateProduct__form" action="#" method="post">
+                <div class="CreateProduct__content">
+                    <h2 class="CreateProduct__title">Thêm sản phẩm</h2>
+
+                    <label>Tên sản phẩm</label>
+                    <input class="CreateProduct__inp" type="text" placeholder="" required="" />
+
+                    <label>Giá nhập</label>
+                    <input class="CreateProduct__inp" type="number" placeholder="" required="" />
+
+                    <label>Giá bán</label>
+                    <input class="CreateProduct__inp" type="number" placeholder="" required="" />
+
+                    <label>Kích cỡ</label>
+                    <input class="CreateProduct__inp" type="text" placeholder="" required="" />
+
+                    <label>Số lượng</label>
+                    <input class="CreateProduct__inp" type="number" min="1" placeholder="" required="" />
+
+                    <label>Màu</label>
+                    <input class="CreateProduct__inp" type="text" min="1" placeholder="" required="" />
+                    <div class="boxProduct">
+                        <label>Loại sản phẩm</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                            <option>Option 4</option>
+                            <option>Option 5</option>
+                        </select>
+                    </div>
+                    <div class="boxSupplier">
+                        <label>Nhà cung cấp</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                            <option>Option 4</option>
+                            <option>Option 5</option>
+                        </select>
+                    </div>
+                    <!--	<label>Kích cỡ và số lượng</label>
+    <div class="tableProduct__Create">
+        <table id="myTable" class="TableA">
+            <tr>
+                <th>Kích cỡ</th>
+                <th>Số lượng</th>
+            </tr>
+        </table>
+        <div class="tableProduct__ButtonCreate">
+            <button onclick="myCreateFunction()">Create row</button>
+            <button onclick="myDeleteFunction()">Delete row</button>
+        </div>
+    </div>-->
+                    <label>Mô tả sản phẩm</label>
+                    <textarea class="CreateProduct__inp" placeholder="" required="required"></textarea>
+                </div>
+				<div class="CreateProduct__buttons">
+					<button class="btn--cancel" type="reset" href="#">Hủy</button>
+					<button class="btn--create" type="submit" href="#">Thêm</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="footer"></div>
+</body>
+</html>

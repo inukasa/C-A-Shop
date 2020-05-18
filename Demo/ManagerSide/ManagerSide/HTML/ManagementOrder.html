@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- CSS file from w3school -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>C&A</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../Css/ManagementOrder.css">
+<link rel="stylesheet" type="text/css" href="../Css/TopBarandSideBar.css">
+<link rel="stylesheet" type="text/css" href="../Css/BodyandFont.css">
+<style type="text/css">
+
+</style>
+<body>
+	<div class="SideBar">
+		<img src="../Img/Logo.png"/>
+		<a href="Index.html">Trang chủ</a>
+		<a href="ManagementUsers.html">Quản lý người dùng</a>
+		<a href="ManagementProduct.html">Quản lý sản phẩm</a>
+		<a href="ManagementOrder.html">Quản lý yêu cầu</a>
+		<a href="ManagementSupplier.html">Quản lý nhà cung cấp</a>
+		<a href="ManagementInventory.html">Quản lý nhà kho</a>
+	</div>
+	<div class="TopBar">
+		<input type="text" placeholder="Tìm kiếm.." name="search">
+		<div class="AccountInfor">
+			<img src="../Img/p2.png">
+			<ul>
+				<li><a href="#">Manager01</a></li>
+				<li><a href="#">Đăng xuất</a></li>
+			</ul>	
+		</div>
+	</div>	
+	<div class="Main-Content">
+		<div class="OrderUnCheck">
+			<div class="wrap">
+				<h3>Đơn mua hàng chưa xử lý</h3>
+				<table class="head">
+					<tbody>
+						<tr>
+							<th>Tên khách hàng</th>
+							<th>Số điện thoại</th>
+							<th>Địa chỉ</th>
+							<th>Thời gian</th>
+							<th>Chi tiết</th>
+							<th>Thực hiện</th>
+						</tr>
+					</tbody>
+				</table>
+				<div class="scroll-table">
+					<table>
+						<tbody>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>	
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>					
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>			
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>			
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>		
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>				
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>	
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>					
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+								<td>dd/mm/yyyy</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td><a href="">Xử lý</a> | <a href="">Huỷ</a></td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+			</div>
+		</div>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">X</span>
+				<div class="TableA">
+					<h3>Top 3 sản phẩm nam bán chạy</h3>
+					<table>
+						<tr>
+							<th>Tên sản phẩm</th>
+							<th>Số lượng</th>
+							<th>Giá</th>
+						</tr>
+						<tr>
+							<td>Sản phẩm nam 1</td>
+							<td>10</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>Sản phẩm nam 2</td>
+							<td>20</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>Sản phẩm nam 3</td>
+							<td>15</td>
+							<td>3</td>
+						</tr>
+					</table>
+					<h2>Tổng giá: 13 VND</h2>
+				</div>
+			</div>
+		</div>
+		<div class="OrderChecked">
+			<div class="wrap">
+				<h3>Đơn mua hàng đã xử lý</h3>
+				<table class="head">
+					<tbody>
+						<tr>
+							<th>Tên khách hàng</th>
+							<th>Số điện thoại</th>
+							<th>Chi tiết</th>
+							<th>Ngày tạo</th>
+							<th>Ngày xác nhận</th>
+							<th>Trạng thái</th>
+						</tr>
+					</tbody>
+				</table>
+				<div class="scroll-table">
+					<table>
+						<tbody>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Huỷ</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>
+								<td><button id="myBtn">Chi tiết</button></td>						
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Huỷ</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>
+								<td><button id="myBtn">Chi tiết</button></td>						
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Huỷ</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>
+								<td><button id="myBtn">Chi tiết</button></td>						
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Huỷ</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>
+								<td><button id="myBtn">Chi tiết</button></td>						
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 1</td>
+								<td>10</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 2</td>
+								<td>20</td>
+								<td><button id="myBtn">Chi tiết</button></td>
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Huỷ</td>
+							</tr>
+							<tr>
+								<td>Sản phẩm nam 3</td>
+								<td>15</td>
+								<td><button id="myBtn">Chi tiết</button></td>						
+								<td>dd/mm/yyyy</td>
+								<td>dd/mm/yyyy</td>
+								<td>Đã xử lý</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+			</table>
+		</div>
+	</div>
+</div>
+<div class="footer"></div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+	modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+	modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}
+</script>
+</body>
+</html>

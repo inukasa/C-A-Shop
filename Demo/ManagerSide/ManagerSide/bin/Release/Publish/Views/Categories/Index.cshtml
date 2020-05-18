@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ManagerSide.Models.Category>
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    @using (Html.BeginForm("Search", "Categories", FormMethod.Get))
+    {
+        <p>
+            <input type="text" name="search" />
+            <input type="submit" value="Search" />
+        </p>
+    }
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.categoryName)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.categoryName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.categoryID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.categoryID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

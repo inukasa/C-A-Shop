@@ -1,0 +1,129 @@
+﻿@model IEnumerable<ManagerSide.Models.Product>
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="../Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/Inventories_editCategory.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Management/inputFormProduct.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+    <div class="Main-Content" id="mainmdl">
+        <div class="CreateProduct">
+            <div class="CreateProduct__form">
+                <div class="CreateProduct__content">
+                    <h2 class="CreateProduct__title">Phân loại sản phẩm</h2>
+                    <div class="boxProduct" style="padding: 0px; text-transform: uppercase;">
+                        <label>Loại sản phẩm</label>
+                        @Html.DropDownList("subcategoryID", null, htmlAttributes: new { @class = "form-control", @id = "categoryList" })
+                    </div>
+                    <table class="Table">
+                        <thead>
+                            <tr>
+                                <th>Mã sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Loại sản phẩm</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.productID)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.productName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SubCategory.subcategoryName)</td>
+                                    <td><input type="checkbox" value="@item.productID" /></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="CreateProduct__buttons">
+                    <input class="btn--cancel" type="submit" value="Hủy" onclick="redirect()" />
+                    <input class="btn--create" type="submit" value="Thêm" onclick="updateCate()" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script>
+        var listCheckedBox = new Array();
+
+        var categoryId = 1;
+
+        var status = document.getElementById("status");
+
+        function updateCate() {
+            getValue();
+            update();
+        }
+
+        function redirect() {
+            window.location.href = "../Inventories/Index";
+        }
+        function update() {
+            $.ajax({
+                type: 'POST',
+                url: '/Inventories/EditProductCategory',
+                data: { products: listCheckedBox, cateId: categoryId },
+                success: function (data) {
+                    alert("Cập nhật thành công");
+                    window.location.href = "../Inventories/Index";
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert("Cập nhật không thành công");
+                    window.location.href = "../Inventories/Index";
+                }
+            });
+        }
+
+
+        function getValue() {
+            listCheckedBox = new Array();
+            var row = $('#mainmdl table tr:has(td)');
+            $.each($(row).find('td'), function (i, item) {
+                if ($(this).find('input[type=checkbox]:checked').length > 0) {
+                    listCheckedBox.push($(this).find('input[type=checkbox]').val());
+                }
+            });
+        };
+
+        $(function () {
+            $("#categoryList").on("change", function () {
+                categoryId = $(this).find("option:selected").val();
+            });
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- CSS file from w3school -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>C&A</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../Css/ManagementInventory.css">
+<link rel="stylesheet" type="text/css" href="../Css/TopBarandSideBar.css">
+<link rel="stylesheet" type="text/css" href="../Css/BodyandFont.css">
+<body>
+	<div class="SideBar">
+		<img src="../Img/Logo.png"/>
+		<a href="Index.html">Trang chủ</a>
+		<a href="ManagementUsers.html">Quản lý người dùng</a>
+		<a href="ManagementProduct.html">Quản lý sản phẩm</a>
+		<a href="ManagementOrder.html">Quản lý yêu cầu</a>
+		<a href="ManagementSupplier.html">Quản lý nhà cung cấp</a>
+		<a href="ManagementInventory.html">Quản lý nhà kho</a>
+	</div>
+	<div class="TopBar">
+		<input type="text" placeholder="Tìm kiếm.." name="search">
+		<div class="AccountInfor">
+			<img src="../Img/p2.png">
+			<ul>
+				<li><a href="#">Manager01</a></li>
+				<li><a href="#">Đăng xuất</a></li>
+			</ul>	
+		</div>
+	</div>	
+    <div class="Main-Content">
+        <div class="AddButton">
+            <a href="ManagementCategory_Create.html">Thêm loại sản phẩm</a>
+        </div>
+        <div class="AddButton">
+            <a href="ManagementCategory_Devide.html">Phân loại sản phẩm</a>
+        </div>
+        <!-- Các nhà cung cấp hiện có -->
+        <!-- <div class="MaleProduct"> -->
+        <div class="TableA">
+            <h3>Top 3 sản phẩm nam bán chạy</h3>
+            <table>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Đã bán được</th>
+                </tr>
+                <tr>
+                    <td>Sản phẩm nam 1</td>
+                    <td>10</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Sản phẩm nam 2</td>
+                    <td>20</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Sản phẩm nam 3</td>
+                    <td>15</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	</div>
+	<div class="footer"></div>
+</body>
+</html>

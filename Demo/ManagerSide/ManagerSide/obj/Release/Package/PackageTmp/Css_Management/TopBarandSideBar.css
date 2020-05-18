@@ -1,0 +1,88 @@
+/**Sidebar **/
+
+.SideBar
+{	
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: var(--gray-light);
+	padding-top: 20px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.SideBar img
+{
+	width: 150px;
+	height: auto; 
+	margin-left: 20%;
+}
+
+
+
+.SideBar a
+{
+	padding: 6px 6px 6px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+}
+
+.SideBar a:hover
+{
+	color: var(--red);
+}
+
+
+/** End **/
+
+/**TopBar **/
+.TopBar
+{	
+	position: sticky;
+	overflow: hidden;
+	background-color: var(--red);
+	margin-left: 20%;
+	height: 55px;
+}
+
+.TopBar input[type=text]
+{	
+	float: left;
+	padding: 6px;
+	margin: 8px;
+	font-size: 17px;
+	border: none;
+	width: 300px;
+}
+
+.AccountInfor
+{
+	float: right;
+	margin-top: 2px;
+	margin-right: 20px;
+}
+
+.AccountInfor img
+{
+	position: absolute;
+	float: right;
+}
+
+.AccountInfor ul li a
+{	
+	color: white;
+	font-weight: bold; 
+	margin-left: 20px;
+}
+
+
+.AccountInfor a:hover
+{
+	text-decoration: none;
+}
+
+/** End **/

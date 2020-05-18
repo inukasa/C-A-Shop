@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\StoreSites01",
+    "\\StoreSites01\\StoreSites01",
+    "\\StoreSites01\\StoreSites01\\StoreSites",
+    "\\StoreSites01\\StoreSites01\\StoreSites\\StoreSites",
+    "\\StoreSites01\\StoreSites01\\StoreSites\\StoreSites\\Views",
+    "\\StoreSites01\\StoreSites01\\StoreSites\\StoreSites\\Views\\Login",
+    "\\StoreSites01\\StoreSites01\\StoreSites\\StoreSites\\Views\\Products"
+  ],
+  "SelectedNode": "\\StoreSites01\\StoreSites01\\StoreSites\\StoreSites.sln",
+  "PreviewInSolutionExplorer": false
+}

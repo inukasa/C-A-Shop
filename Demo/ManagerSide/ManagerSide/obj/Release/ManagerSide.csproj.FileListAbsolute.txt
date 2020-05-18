@@ -1,0 +1,473 @@
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\ManagerSide.dll.config
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\ManagerSide.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\ManagerSide.pdb
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\csc.exe
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\csc.exe.config
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\csc.rsp
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\csi.exe
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\csi.exe.config
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\csi.rsp
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.AppContext.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Console.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\vbc.exe
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\vbc.exe.config
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\vbc.rsp
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Razor.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\WebGrease.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.Razor.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CopyComplete
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.dll
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.pdb
+C:\Users\Nguyen Duc\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\ManagerSide.dll.config
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\ManagerSide.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\ManagerSide.pdb
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\csc.exe
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\csc.exe.config
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\csc.rsp
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\csi.exe
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\csi.exe.config
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\csi.rsp
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.AppContext.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Console.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.IO.Compression.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.Claims.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.ValueTuple.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\vbc.exe
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\vbc.exe.config
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\vbc.rsp
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Antlr3.Runtime.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\EntityFramework.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Newtonsoft.Json.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Helpers.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Mvc.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Optimization.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Razor.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.WebPages.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\WebGrease.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\EntityFramework.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Helpers.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Mvc.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Optimization.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.Razor.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.WebPages.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Newtonsoft.Json.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Antlr3.Runtime.pdb
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CopyComplete
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\obj\Release\ManagerSide.dll
+C:\Users\asus\Desktop\New folder (2)\ManagerSide\ManagerSide\obj\Release\ManagerSide.pdb
+D:\Project_Final\ManagerSide\ManagerSide\bin\ManagerSide.dll.config
+D:\Project_Final\ManagerSide\ManagerSide\bin\ManagerSide.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\ManagerSide.pdb
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\csc.exe
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\csc.exe.config
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\csc.rsp
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\csi.exe
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\csi.exe.config
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\csi.rsp
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.AppContext.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Collections.Immutable.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Console.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.IO.Compression.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.AccessControl.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.Claims.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.ValueTuple.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\vbc.exe
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\vbc.exe.config
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\vbc.rsp
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe
+D:\Project_Final\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe.config
+D:\Project_Final\ManagerSide\ManagerSide\bin\Antlr3.Runtime.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\EntityFramework.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\Microsoft.Web.Infrastructure.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\Newtonsoft.Json.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Helpers.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Mvc.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Optimization.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Razor.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.WebPages.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\WebGrease.dll
+D:\Project_Final\ManagerSide\ManagerSide\bin\EntityFramework.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Helpers.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Mvc.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Optimization.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.Razor.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.WebPages.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\Newtonsoft.Json.xml
+D:\Project_Final\ManagerSide\ManagerSide\bin\Antlr3.Runtime.pdb
+D:\Project_Final\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project_Final\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CopyComplete
+D:\Project_Final\ManagerSide\ManagerSide\obj\Release\ManagerSide.dll
+D:\Project_Final\ManagerSide\ManagerSide\obj\Release\ManagerSide.pdb
+D:\Project_Final\ManagerSide\ManagerSide\obj\Release\ManagerSide.csprojAssemblyReference.cache
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\ManagerSide.dll.config
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\ManagerSide.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\ManagerSide.pdb
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csc.exe
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csc.exe.config
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csc.rsp
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csi.exe
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csi.exe.config
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csi.rsp
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.AppContext.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Console.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\vbc.exe
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\vbc.exe.config
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\vbc.rsp
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Razor.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\WebGrease.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Razor.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.csprojAssemblyReference.cache
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CopyComplete
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.dll
+C:\Users\Nguyen Duc\Downloads\Source Code-20200112T110434Z-001\Source Code\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.pdb
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\ManagerSide.dll.config
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\ManagerSide.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\ManagerSide.pdb
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csc.exe
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csc.exe.config
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csc.rsp
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csi.exe
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csi.exe.config
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\csi.rsp
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.AppContext.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Console.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.Compression.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Claims.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.ValueTuple.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\vbc.exe
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\vbc.exe.config
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\vbc.rsp
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Antlr3.Runtime.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Newtonsoft.Json.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Helpers.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Mvc.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Optimization.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Razor.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\WebGrease.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Helpers.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Mvc.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Optimization.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.Razor.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Newtonsoft.Json.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Antlr3.Runtime.pdb
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CopyComplete
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.dll
+C:\Users\asus\Desktop\Fix Bug\ManagerSide\ManagerSide\ManagerSide\obj\Release\ManagerSide.pdb
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\ManagerSide.dll.config
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\ManagerSide.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\ManagerSide.pdb
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.csproj.CopyComplete
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.dll
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.pdb
+C:\Users\Administrator\Desktop\ManagerSide\ManagerSide\obj\Release\ManagerSide.csprojAssemblyReference.cache

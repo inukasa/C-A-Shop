@@ -1,0 +1,187 @@
+﻿@model ManagerSide.Models.CommonModel
+
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+     @*jQuery library 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>*@
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/ManagementOrder.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+    <div class="Main-Content">
+        <div id="myModal" class="modal">
+            <div class="content_modal" style="background-color: white;width: 60%; margin: 10% 0 0 25%;">
+                <div class="Table">
+                    <span class="close">X</span>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>tên sản phẩm</th>
+                                <th>số lượng</th>
+                                <th>giá tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orderListProduct"></tbody>
+                    </table>
+                    <h2 id="totalPrice"></h2>
+                </div>
+            </div>
+        </div>
+            <h3>Đơn mua hàng chưa xác nhận</h3>
+            <table class="Table">
+                <thead>
+                    <tr>
+                        <th>Tên khách hàng</th>
+                        <th>Số điện thoại</th>
+                        <th>Địa chỉ</th>
+                        <th>Thời gian</th>
+                        <th>Chi tiết</th>
+                        <th>Thực hiện</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.orderByDateCreated)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Order.User.username)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Order.User.phone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.address)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Order.dateCreate)
+                            </td>
+                            <td>
+                                <input type="button" value="Chi tiết" id=@item.orderID name="myBtn" onclick="openModal(@item.orderID)" />
+                            </td>
+                            <td>
+                                @Html.ActionLink("Xử lý", "EditStatus", new { id = item.orderID, status = "Đã xử lý" }) |
+                                @Html.ActionLink("Hủy", "EditStatus", new { id = item.orderID, status = "Hủy" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <h3 style="float: left;">Đơn mua hàng đã xác nhận</h3>
+            <table class="Table">
+                <thead>
+                    <tr>
+                        <th>Tên khách hàng</th>
+                        <th>Số điện thoại</th>
+                        <th>Chi tiết</th>
+                        <th>Ngày tạo</th>
+                        <th>Ngày xác nhận</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.orderByDateConfirm)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.User.username)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.User.phone)
+                            </td>
+                            <td>
+                                <input type="button" value="Chi tiết" id=@item.orderID name="myBtn" onclick="openModal(@item.orderID)" />
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.dateCreate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.dateConfirm)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.orderStatus)
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+    </div>
+    <div class="footer"></div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        var orderListProduct = document.getElementById("orderListProduct");
+
+        // When the user clicks the button, open the modal
+        function openModal(id) {
+            return getvalue(id);
+        }
+
+        let Url = window.location.origin + "/Orders/";
+
+        const getvalue = (rs) => {
+            var fromdata = new FormData();
+            fromdata.append("ID", rs);
+            fetch(Url + "GetOrderProduct", {
+                method: "POST",
+                body: fromdata
+            }).then(response => response.json()).then(response => render(response));
+            modal.style.display = "block";
+        }
+
+        const render = (rs) => {
+            var totalOrderPrice = 0;
+            $("#orderListProduct").empty();
+            rs.data.map(element => {
+                var price =element.productTotalPrice;
+                totalOrderPrice = totalOrderPrice + price;
+                $("#orderListProduct").append("<tr><td>" + element.productName + "</td><td>"
+                    + element.productQuantityOrder + "</td><td>" + element.productTotalPrice + "</tr>")
+            })
+            $("#totalPrice").text("Tổng giá: " + totalOrderPrice);
+
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

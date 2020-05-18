@@ -1,0 +1,87 @@
+button 
+{
+	cursor: pointer;
+	outline: none;
+}
+
+.CreateSupplier 
+{	
+	font-family: var(--font);
+	background-color: var(--gray-light);
+	margin: 25px 25px 25px 5px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+label
+{
+	font-family: var(--font);
+	font-size: larger;
+	width: fit-content;
+}
+
+.CreateSupplier__form {
+	width: 80%;
+	background-color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position: relative;
+	z-index: 10;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 20px 20px 10px rgba(0,0,0,.15);
+}
+.CreateSupplier__content {
+	padding: 40px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.CreateSupplier__title {
+	color: var(--red);
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.CreateSupplier__inp {
+	outline: none;
+	margin-bottom: 15px;
+	padding: 20px 20px 20px 0;
+	border: 0;
+	border-bottom: 1px solid var(--gray-light);
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: var(--font);
+}
+.CreateSupplier__buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.CreateSupplier__buttons > * {
+	width: 50%;
+	padding: 20px 15px;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom-left-radius: 8px ;
+	border-bottom-right-radius: 8px;
+}
+.btn--create
+{
+	background-color: var(--red);
+	color: white;
+	text-align: center;
+}
+.btn--cancel
+{
+	background-color: var(--gray-light);
+	color: var(--gray);
+	text-align: center;
+}
+

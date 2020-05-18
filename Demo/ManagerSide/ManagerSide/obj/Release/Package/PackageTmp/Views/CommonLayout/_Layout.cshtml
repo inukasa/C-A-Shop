@@ -1,0 +1,110 @@
+﻿@{ 
+    Layout = null;
+    int role = Convert.ToInt32(Session["role"]);
+    string fullname = Session["user"].ToString();
+    //string image = Session["image"].ToString();
+    string id = Session["id"].ToString();
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Layout</title>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="/Css_Management/BodyandFont.css">
+</head>
+<body>
+    <style>
+        .AccountInfor{
+            input[type=button]{                
+                                  background-color: var(--red);
+                                  border: none;
+                                  color: white;
+                                  text-align: center;
+                                  display: inline-block;
+                                  cursor: pointer;
+                              } 
+        }
+    </style>
+    @Html.Raw(ViewBag.Message)
+
+    <div class="SideBar">
+        <img src="~/Img/Logo.png" />
+        <a href="~/Index/Index">Trang chủ</a>
+        <a href="~/Users/Index">Quản lý người dùng</a>
+        <a href="~/Products/Index">Quản lý sản phẩm</a>
+        <a href="~/Orders/Index">Quản lý đơn hàng</a>
+        <a href="~/Suppliers/Index">Quản lý nhà cung cấp</a>
+        <a href="~/Inventories/Index">Quản lý nhà kho</a>
+    </div>
+    <div class="TopBar">
+        @using (Html.BeginForm("Search", "Index", FormMethod.Get))
+        {
+            <input type="text" placeholder="Tìm kiếm.." name="search" id="myInput">
+        }
+        <div class="AccountInfor" style="text-transform:capitalize;" >
+            @*<img id="avatar" src="~/Images/@image" style="width:30px; height:30px" />*@
+            <ul style="list-style: none;">
+                <li><a href="~/Index/EditProfile/@id">@fullname</a></li>
+                <li><input type="button" value="Đăng xuất" id="logout" onclick="logout()" 
+                           style="background-color: var(--red);
+                                  border: none;
+                                  color: white;
+                                  text-align: center;
+                                  display: inline-block;
+                                  cursor: pointer;
+                                  margin-left: 14px;"/></li>
+            </ul>
+        </div>
+    </div>
+    @RenderBody()
+    <script>
+        // Get the input field
+        var input = document.getElementById("myInput");
+
+        // Execute a function when the user releases a key on the keyboard
+        input.addEventListener("keyup", function(event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        }
+        });
+        $("#myInput").autocomplete({
+        source: function (request, response) {
+            $.ajax({
+                url: '@Url.Action("GetSearchValue","Products")',
+                dataType: "json",
+                data: { search: $("#myInput").val() },
+                success: function (data) {
+                    response($.map(data, function (item) {
+                        return { label: item, value: item };
+                    }));
+                },
+                error: function (xhr, status, error) {
+                    alert("Error");
+                }
+            });
+        }
+        });
+        function logout() {
+            $.ajax({
+                type: 'POST',
+                url: '/Login/Logout',
+                data: { },
+                success: function (data) {
+                    alert("Logout thành công");
+                    window.location.href = "../../Login/Login";
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿@model ManagerSide.Models.Product
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- CSS file from w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="/Css_Management/Management_Delete_Page.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Html.Raw(ViewBag.ErrorMessege)
+    <div class="Main-Content">
+        <h3>Bạn có chắc chắn muốn xóa sản phẩm này?</h3>
+            <h4>Sản phẩm</h4>
+            <hr />
+            <table class="Table">
+                <thead>
+                <th>@Html.DisplayNameFor(model => model.productName)</th>
+                <th>@Html.DisplayNameFor(model => model.importDate)</th>
+                <th>@Html.DisplayNameFor(model => model.productSize)</th>
+                <th>@Html.DisplayNameFor(model => model.productColor)</th>
+                <th>@Html.DisplayNameFor(model => model.importPrice)</th>
+                <th>@Html.DisplayNameFor(model => model.exportPrice)</th>
+                <th>@Html.DisplayNameFor(model => model.SubCategory.subcategoryName)</th>
+                <th>@Html.DisplayNameFor(model => model.productStatus)</th>
+                </thead>
+                <tbody>
+                <td>@Html.DisplayFor(model => model.productName)</td>
+                <td>@Html.DisplayFor(model => model.importDate)</td>
+                <td>@Html.DisplayFor(model => model.productSize)</td>
+                <td>@Html.DisplayFor(model => model.productColor)</td>
+                <td>@Html.DisplayFor(model => model.importPrice)</td>
+                <td>@Html.DisplayFor(model => model.exportPrice)</td>
+                <td>@Html.DisplayFor(model => model.SubCategory.subcategoryName)</td>
+                <td>@Html.DisplayFor(model => model.productStatus)</td>
+                </tbody>
+            </table>
+            <div class="Delete_btn" style="">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="">
+                        <input type="submit" value="Xóa" class="btn btn-default" /> |
+                        @Html.ActionLink("Trở lại danh sách", "Index")
+                    </div>
+                }
+            </div>
+    </div>
+
+</body>
+</html>

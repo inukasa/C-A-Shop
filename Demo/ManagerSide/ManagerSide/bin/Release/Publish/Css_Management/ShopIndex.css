@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
+:root {
+	--red: #ff5757;
+	--yellow: #feb800;
+	--green: #07a787;
+	--purple: #c765d0;
+	--gray: #787878;
+	--gray-light: #eee;
+	--gray-dark: #2e3c54;
+	--font: "Montserrat", sans-serif;
+}
+body,h1,h2,h3,h4,h5,h6
+{	
+	margin: 0;
+	font-family: var(--font);
+	font-size: 15px;
+    line-height: 1.5;
+}
+
+/** Top Menu **/
+.top
+{
+	top:0;
+}
+
+.top, .bottom
+{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.red, .hover-red:hover
+{
+	color: #fff;
+	background-color: #f44336;
+}
+
+.left-align
+{
+	text-align: left;
+}
+
+.large
+{
+	font-size: 18px;
+}
+
+.card, .card-2
+{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.bar 
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.button
+{
+	white-space: normal;
+}
+
+.bar-item
+{
+	float: left;
+	width: auto;
+	border: none;
+	display: block;
+	outline: 0;
+}
+
+.white, .hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.padding-large {
+    padding: 12px 24px!important;
+}
+
+.button
+{
+	user-select: none;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+}
+/** End **/

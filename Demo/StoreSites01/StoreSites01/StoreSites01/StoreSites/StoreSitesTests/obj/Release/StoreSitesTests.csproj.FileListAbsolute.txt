@@ -1,0 +1,132 @@
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.dll.config
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.pdb
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Helpers.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Mvc.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Razor.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Optimization.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\PagedList.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\WebGrease.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Antlr3.Runtime.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Newtonsoft.Json.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.pdb
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.dll.config
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Helpers.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Mvc.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Razor.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Optimization.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\PagedList.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Antlr3.Runtime.pdb
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Newtonsoft.Json.xml
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csprojAssemblyReference.cache
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csproj.CoreCompileInputs.cache
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csproj.CopyComplete
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.pdb
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Le Hai\Downloads\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.dll.config
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Helpers.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Mvc.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Razor.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Optimization.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\PagedList.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\WebGrease.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Antlr3.Runtime.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Newtonsoft.Json.dll
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.dll.config
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Helpers.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Mvc.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Razor.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Optimization.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\PagedList.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Antlr3.Runtime.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Newtonsoft.Json.xml
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csprojAssemblyReference.cache
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csproj.CoreCompileInputs.cache
+C:\Users\DuyAnh\OneDrive\Desktop\DuyAnh\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csproj.CopyComplete
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.dll.config
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSitesTests.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Helpers.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Mvc.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Razor.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Optimization.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\PagedList.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\WebGrease.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Antlr3.Runtime.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Newtonsoft.Json.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\StoreSites.dll.config
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Helpers.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Mvc.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Razor.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\System.Web.Optimization.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\PagedList.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Antlr3.Runtime.pdb
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\bin\Release\Newtonsoft.Json.xml
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csprojAssemblyReference.cache
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csproj.CoreCompileInputs.cache
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.csproj.CopyComplete
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.dll
+C:\Users\DuyAnh\OneDrive\Desktop\Demo\StoreSites01\StoreSites01\StoreSites01\StoreSites\StoreSitesTests\obj\Release\StoreSitesTests.pdb

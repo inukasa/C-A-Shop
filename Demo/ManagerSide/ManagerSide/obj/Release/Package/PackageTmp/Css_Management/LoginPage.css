@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
+:root {
+	--red: #ff5757;
+	--yellow: #feb800;
+	--green: #07a787;
+	--purple: #c765d0;
+	--gray: #787878;
+	--gray-light: #eee;
+	--gray-dark: #2e3c54;
+	--font: "Montserrat", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+button {
+	cursor: pointer;
+	outline: none;
+}
+
+body
+{
+	background-color: var(--gray-light);
+}
+
+.sign-up {
+	font-family: var(--font);
+	width: 100%;
+	height: 100%;
+	max-width: 800px;
+	height: 600px;
+	background-color: var(--gray-light);
+	margin: 25px auto;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sign-up__form {
+	background-color: white;
+	width: 80%;
+	height: 70%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 20px 20px 10px rgba(0,0,0,.15);
+}
+.sign-up__content {
+	padding: 20px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+.sign-up__title {
+	color: var(--red);
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.sign-up__inp {
+	outline: none;
+	margin-bottom: 15px;
+	padding: 20px 20px 20px 0;
+	border: 0;
+	border-bottom: 1px solid var(--gray-light);
+	font-size: 16px;
+	font-weight: 400;
+	font-family: var(--font);
+}
+.sign-up__buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.sign-up__buttons > * {
+	width: 50%;
+	padding: 20px 15px;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+.forgot__password {
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--gray);
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.btn--register {
+	background-color: var(--gray-light);
+	color: var(--gray);
+	text-align: center;
+}
+
+.btn--signin {
+	background-color: var(--red);
+	color: white;
+	text-align: center;
+    width: 100%;
+}

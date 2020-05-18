@@ -1,0 +1,67 @@
+﻿@model ManagerSide.Models.ImportShipment
+
+    @{
+
+    }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C&A</title>
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/TopBarandSideBar.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/BodyandFont.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/ManagementProduct.css">
+    <link rel="stylesheet" type="text/css" href="~/Css_Management/inputFormProduct.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jqueryval")
+    @Html.Raw(ViewBag.ErrorMessege)
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="Main-Content">
+            <div class="CreateProduct">
+                <div class="CreateProduct__form">
+                    <div class="CreateProduct__content">
+                        <h2 class="CreateProduct__title">Nhập hàng</h2>
+                        <label>Sản phẩm</label>
+                        <div class="boxSupplier">
+                            @Html.DropDownList("productID", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.productID, "", new { @class = "text-danger" })
+                        </div>
+                        <label>Giá nhập</label>
+                            @Html.EditorFor(model => model.importPrice, new { htmlAttributes = new { @class = "CreateProduct__inp", maxlength = "20", minlength = "4", min="1" } })
+                            @Html.ValidationMessageFor(model => model.importPrice, "", new { @class = "CreateProduct__inp" })
+                        <label>Số lượng</label>
+                            @Html.EditorFor(model => model.quantity, new { htmlAttributes = new { @class = "CreateProduct__inp", maxlength = "20", minlength = "1" } })
+                            @Html.ValidationMessageFor(model => model.quantity, "", new { @class = "CreateProduct__inp" })
+                    </div>
+                    <div class="CreateProduct__buttons">
+                        <input type="submit" value="Hủy" class="btn--cancel" onclick="back()" />
+                        <input type="submit" value="Thêm" class="btn--create" name="action:ImportShipmentCreate" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    }
+    <script>
+        function back() {
+            window.location.href = "../Inventories/Index";
+        }
+    </script>
+</body>
+</html>
